@@ -1,6 +1,6 @@
 # WebSite-delivery
 
-<b>Este é o front-end de uma página de delivery. O objetivo deste projeto é criar uma interface atraente e responsiva para uma aplicação de delivery. <b>
+<b>Este é o front-end de uma página de delivery. O objetivo deste projeto é criar uma interface atraente e responsiva para uma aplicação web de delivery <b>
 <br><br>
 
 <h1>Tecnologias utilizadas</h1>

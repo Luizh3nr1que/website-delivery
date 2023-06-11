@@ -9,13 +9,6 @@ function ocultarConteudo(index) {
     sobrePorConteudo[index].style.display = 'none';
 }
 
-var cardsChefs = document.querySelectorAll('.cardsChefsContent');
-
-cardsChefs.forEach(function (card, index) {
-    card.addEventListener('ontouchstart', function () {
-        mostrarConteudo(index);
-    });
-});
 
 
 

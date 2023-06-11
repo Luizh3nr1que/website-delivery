@@ -213,6 +213,7 @@ header a:hover {
 .cardsChefsContent img {
     width: 320px;
     cursor: default;
+    user-select: none;
 }
 
 

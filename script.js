@@ -28,9 +28,11 @@ ButtonMobile.addEventListener('click', () => {
         menuMobile.classList.add('animationClose');
         setTimeout(() => {
             menuMobile.style.display = 'none';
-        }, 200)
+        }, 300)
     }
 });
+
+
 
 const linksA = document.querySelectorAll('.link');
 
@@ -44,6 +46,8 @@ linksA.forEach(linksA => {
         }, 300);
     })
 })
+
+
 
 const imgs = document.querySelectorAll('img');
 

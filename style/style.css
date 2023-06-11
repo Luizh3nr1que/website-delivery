@@ -194,12 +194,6 @@ header a:hover {
     text-align: center;
 }
 
-.chefsConteudo span {
-    font-size: 18px;
-    border-radius: 30px;
-    color: rgb(246, 18, 18);
-}
-
 .cardsChefs {
     display: flex;
     flex-wrap: wrap;

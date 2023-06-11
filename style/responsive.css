@@ -1,0 +1,46 @@
+@media screen and (max-width:851px) {
+    .imgInicio img {
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width:669px) {
+    .InicioSec {
+        height: 70em;
+    }
+
+    .ContainerInicio {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:547px) {
+    nav {
+        display: none;
+    }
+
+    .MenuMobile {
+        display: block !important;
+    }
+}
+
+
+@media screen and (max-width:398px) {
+    .escrita {
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .escrita h1 {
+        font-size: 30px;
+    }
+
+    .escrita p {
+        font-size: 18px;
+    }
+
+    .imgInicio img {
+        width: 100%;
+    }
+}

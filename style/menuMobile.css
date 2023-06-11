@@ -1,0 +1,64 @@
+.MenuMobile {
+    font-size: 35px;
+    display: none;
+
+}
+
+.menuMobile {
+    display: none;
+    position: fixed;
+    height: 320px;
+    width: 100%;
+    top: 55px;
+    z-index: 2;
+    padding: 10px;
+    background-color: rgb(253, 181, 181);
+
+}
+
+.animationOpen {
+    animation: OpenMenu .2s linear forwards;
+}
+
+.animationClose {
+    animation: CloseMenu .2s linear forwards;
+}
+
+@keyframes OpenMenu {
+    to {
+        top: 55px;
+    }
+
+    from {
+        top: -20px;
+    }
+}
+
+@keyframes CloseMenu {
+    to {
+        top: -20px;
+    }
+
+    from {
+        top: 55px;
+    }
+}
+
+
+
+.menuMobileConteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.menuMobileConteudo a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/menuMobile.css">
+
+    <link rel="shortcut icon" href="icon/favicon-32x32.png" type="image/x-icon">
+
+    <!-- Biblioteca normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fim Biblioteca normalize -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <title>Luiz Henrique | Chef WebSite</title>
+</head>
+
+<body>
+    <section class="InicioSec">
+        <header class="header">
+            <div class="containerHeader">
+                <h1>Chef</h1>
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#chefes">Chefes</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+
+                <ion-icon class="MenuMobile" name="menu-outline"></ion-icon>
+            </div>
+        </header>
+
+        <section class="menuMobile">
+
+            <div class="menuMobileConteudo">
+                <a class="link" href="#home">Home</a>
+                <a class="link" href="#servicos">Serviços</a>
+                <a class="link" href="#chefes">Chefes</a>
+                <a class="link" href="#contato">Contato</a>
+            </div>
+        </section>
+
+        <div id="home"></div>
+
+        <div class="InicioConteudo">
+            <div class="ContainerInicio">
+
+                <div class="escrita">
+
+                    <span class="detalheEscrita">mais do que mais rápido</span>
+
+                    <h1>Seja o mais rápido na entrega da sua <span style="color: rgb(255, 67, 67)">Comida</span>
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente id corrupti maiores neque
+                        illum
+                        autem quae. Nulla laborum cum sapiente</p>
+                    <button>Contate agora</button>
+                </div>
+
+                <div class="imgInicio">
+                    <img src="img/chef.png">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <div id="servicos"></div>
+
+    <section class="deliveriContainer">
+
+        <div class="deliveriConteudo">
+            <span>O QUE SERVIMOS</span>
+            <h1>Seu parceiro de entrega <br> de comida favorito.</h1>
+
+            <div class="cards">
+
+                <div class="cardContent">
+                    <img style="width: 50px;" src="img/order.png">
+                    <h1>fácil de pedir</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ut reprehenderit maxime
+                        recusandae voluptatem maiores neque?</p>
+                </div>
+
+                <div class="cardContent">
+                    <img src="img/ship.png">
+                    <h1>A entrega mais rápida</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ut reprehenderit maxime
+                        recusandae voluptatem maiores neque?</p>
+                </div>
+
+                <div class="cardContent">
+                    <img src="img/deliver.png">
+                    <h1>Melhor qualidade</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ut reprehenderit maxime
+                        recusandae voluptatem maiores neque?</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <div id="chefes"></div>
+
+    <section class="chefs">
+        <div class="chefsConteudo">
+            <span>Nossos chefs</span>
+            <h1>Nossos incríveis chefs</h1>
+
+            <div class="cardsChefs">
+
+                <div class="cardsChefsContent">
+                    <img onmouseover="mostrarConteudo(0)" onmouseout="ocultarConteudo(0)" class="chef1"
+                        src="img/chef1.png">
+
+                    <div class="sobrePorConteudo">
+                        <h1>Marco Pierre</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatem dolor a
+                            mollitia
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cardsChefsContent">
+                    <img onmouseover="mostrarConteudo(1)" onmouseout="ocultarConteudo(1)" src="img/chef2.png">
+
+                    <div class="sobrePorConteudo">
+                        <h1>Julia Child</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatem dolor a
+                            mollitia
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cardsChefsContent">
+                    <img onmouseover="mostrarConteudo(2)" onmouseout="ocultarConteudo(2)" src="img/chef3.jpg">
+
+                    <div class="sobrePorConteudo">
+                        <h1>Gordon Ramsay</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatem dolor a
+                            mollitia
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <div id="contato"></div>
+
+    <section class="contact">
+        <div class="contactConteudo">
+            <span>Tem alguma pergunta?</span>
+            <h1>Entre em Contato</h1>
+
+            <div class="formContainer">
+
+                <form>
+                    <input type="text" placeholder="Nome" required>
+
+                    <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" required>
+
+                    <textarea cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footerContainer">
+            <div class="redes">
+                <ion-icon class="icon" name="logo-facebook"></ion-icon>
+                <ion-icon class="icon" name="logo-instagram"></ion-icon>
+                <ion-icon class="icon" name="logo-twitter"></ion-icon>
+                <ion-icon class="icon" name="logo-youtube"></ion-icon>
+            </div>
+
+            <div class="detalhesSite">
+                <a href="#">Term Of Use</a>
+                <a href="#">Company</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!--  | © Desenvolvido por luiz Henrique 🚀 -->

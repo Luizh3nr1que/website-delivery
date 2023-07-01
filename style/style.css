@@ -27,18 +27,16 @@ header {
     height: 70px;
     width: 100%;
     position: fixed;
-    z-index: 1;
-    background-color: rgba(255, 145, 145, 0.203);
-
-}
-
-
-.containerHeader {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
+    justify-content: space-around;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.scroll {
+    background-color: rgb(255, 145, 145);
+
 }
 
 

@@ -19,6 +19,16 @@ ButtonMobile.addEventListener('click', () => {
 });
 
 
+const header = document.querySelector('.header');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 600) {
+        header.classList.add('scroll');
+    } else {
+        header.classList.remove('scroll');
+    }
+})
+
 
 const linksA = document.querySelectorAll('.link');
 

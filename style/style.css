@@ -216,6 +216,10 @@ header a:hover {
     user-select: none;
 }
 
+.cardsChefsContent:hover .sobrePorConteudo {
+    display: flex;
+}
+
 
 .sobrePorConteudo {
     background-color: rgba(244, 164, 164, 0.406);
@@ -226,9 +230,20 @@ header a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: slide 0.4s linear forwards;
     display: none;
 }
 
+
+@keyframes slide {
+    to {
+        height: 435px;
+    }
+
+    from {
+        height: 0;
+    }
+}
 
 
 .contact {

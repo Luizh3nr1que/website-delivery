@@ -1,17 +1,3 @@
-
-function mostrarConteudo(index) {
-    var sobrePorConteudo = document.querySelectorAll('.sobrePorConteudo');
-    sobrePorConteudo[index].style.display = 'flex';
-}
-
-function ocultarConteudo(index) {
-    var sobrePorConteudo = document.querySelectorAll('.sobrePorConteudo');
-    sobrePorConteudo[index].style.display = 'none';
-}
-
-
-
-
 const ButtonMobile = document.querySelector('.MenuMobile');
 const menuMobile = document.querySelector('.menuMobile');
 const MenuIcon = document.querySelector('.MenuMobile');
